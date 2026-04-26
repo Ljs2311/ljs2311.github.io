@@ -1,50 +1,222 @@
 <!DOCTYPE html>
 <html>
-    <title>Logan's Retro Website</title>
-    <audio id="bgMusic" loop>
-        <source src="music.mp3" type="audio/mpeg">
-    </audio>
-    <button onclick="document.getElementById('bgMusic').play()">Play Music</button>
-    <body bgcolor="lightgrey">
+    <head>
+        <!-- Title -->
+        <title>
+            Logan's Retro Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Top Bar -->
         <center>
-            <h1>Logan's Retro Website</h1>
-            <p>Welcome to my retro website home page!</p>
-            <a href="mailto:logansneed@aol.com">Contact Me</a>
-             <hr>
-            <marquee><h2>Visitor Count: <font color="red">000123</font></h2>Best viewed on Internet Explorer or Netscape Navigator in 1025x768 resolution</marquee>
+            <div class="topBar">This is my Q4 CRP
+                Project for English IX at
+                CHCA</div>
+        </center>
+
+        <!-- Audio -->
+        <audio
+            id="bgMusic"
+            loop>
+            <source
+                src="music.mp3"
+                type="audio/mpeg">
+            <!-- Music File-->
+        </audio>
+        <!-- Button to play music -->
+        <button class="fixed"
+            onclick="document.getElementById('bgMusic').play()">
+            Play
+            Music
+        </button>
+
+        <center>
+            <!-- Bold title-->
+            <h1>
+                Logan's Retro Website
+            </h1>
+            <h3>
+                Welcome to my retro website home page!
+            </h3>
+
+            <!-- Contact -->
+            <p>
+                Contact me:
+            </p>
+            <!-- Phone Number -->
+            <a
+                href="callto:513-614-1513">
+                Phone#
+            </a>
+            <!-- Home Email-->
+            <a
+                href="mailto:ljsneed11@gmail.com">
+                Email: Home
+            </a>
+            <!-- School Email-->
+            <a
+                href="mailto:logan.sneed@chca-oh.org">
+                Email: Work
+            </a>
+
             <hr>
-            
-            <h3>Links</h3>
-            <table border="1">
+            <!-- Scrolling Text -->
+            <marquee>
+                <h2>
+                    Visitor Count:
+                    <font
+                        color="red">
+                        000123
+                    </font>
+                </h2>
+                Best viewed on
+                Internet Explorer or Netscape Navigator in 1025x768
+                resolution
+            </marquee>
+            <hr>
+
+            <h3>
+                Links
+            </h3>
+            <table
+                border="1">
                 <tr>
-                    <td><a href="https://web.archive.org/web/20050131091226/http://www.myspace.com/index.cfm?fuseaction=splash" target="_blank">MySpace</a></td>
-                    <td><a href="https://web.archive.org/web/20070201002038/http://www.facebook.com/" target="_blank">Facebook</a></td>
-                    <td><a href="https://web.archive.org/web/20050429001542/http://www.napster.com/" target="_blank">Napster</a></td>
-                    <td><a href="https://web.archive.org/web/20040901003500/http://www.limewire.com/english/content/home.shtml" target="_blank">LimeWire</a></td>
-                    <td><a href="https://web.archive.org/web/20040322074432/http://geocities.yahoo.com/" target="_blank">GeoCities</a></td>
+                    <td>
+                        <a
+                            href="https://web.archive.org/web/20050131091226/http://www.myspace.com/index.cfm?fuseaction=splash"
+                            target="_blank">
+                            MySpace
+                        </a>
+                    </td>
+                    <td>
+                        <a
+                            href="https://web.archive.org/web/20070201002038/http://www.facebook.com/"
+                            target="_blank">
+                            Facebook
+                        </a>
+                    </td>
+                    <td>
+                        <a
+                            href="https://web.archive.org/web/20050429001542/http://www.napster.com/"
+                            target="_blank">
+                            Napster
+                        </a>
+                    </td>
+                    <td>
+                        <a
+                            href="https://web.archive.org/web/20040901003500/http://www.limewire.com/english/content/home.shtml"
+                            target="_blank">
+                            LimeWire
+                        </a>
+                    </td>
+                    <td>
+                        <a
+                            href="https://web.archive.org/web/20040322074432/http://geocities.yahoo.com/"
+                            target="_blank">
+                            GeoCities
+                        </a>
+                    </td>
                 </tr>
             </table>
             <hr>
-            <p>Hi, I'm Logan! I love retro technology and websites. This is my personal website where I share my interests and hobbies.</p>
+            <p>Hi, I'm Logan! I love retro technology and websites. This is
+                my personal website where I share my interests and
+                hobbies.
+            </p>
         </center>
-        <div align="right">
-            <img src="images/internetparty.gif" alt="Internet Party" width="250">
-            <h2>How fast is your internet connection?</h2>
-            Speed: <input type="text" name="name">
-            <button type="submit">Submit</button>
+
+        <ul>
+            <li>
+                <h4
+                    class="neuropol">
+                    4028 The Beak Squad
+                </h4>
+                <p>
+                    The Beak Squad is my robotics team at CHCA. We build and
+                    program robots to compete in the First Robotics
+                    Competition. We
+                    have a lot of fun working together and learning new
+                    skills.
+                    This is my first year on the team, and I'm excited to
+                    see what we can
+                    accomplish! This season we have already qualified for
+                    the World Championship, and we are working hard to
+                    prepare for the competition. Go Beak Squad!
+                </p>
+            </li>
+            <li>
+                <h4
+                    class="neuropol">
+                    Academic Team
+                </h4>
+                <p>
+                    I am on the CHCA Academic Team, which is a group of students
+                    who compete in academic competitions against other schools.
+                    We compete in a variety of subjects, including math,
+                    science, history, and literature. I enjoy being on the team
+                    because it allows me to learn new things and challenge
+                    myself academically. We have had some great successes in
+                    recent years, and I am proud to be a part of such a talented
+                    group of students.
+                </p>
+            </li>
+
+        </ul>
+
+        <div
+            align="right">
+            <img
+                src="images/internetparty.gif"
+                alt="Internet Party"
+                width="250">
+            <h2>
+                How fast is your internet connection?
+            </h2>
+            Speed:
+            <input
+                type="text"
+                name="name">
+            <button
+                type="submit">
+                Submit
+            </button>
 
         </div>
-        <div align="left">
-            <a href="https://www.youtube.com/@Logan_Sneed">
-            <img src="images/youtube.webp" alt="YouTube" width="60">
+        <div
+            align="left">
+            <a
+                href="https://www.youtube.com/@Logan_Sneed">
+                <img
+                    src="images/youtube.webp"
+                    alt="YouTube"
+                    width="60">
             </a>
-            <img src="images/myspace.jpg" alt="MySpace" width="60">
+            <img
+                src="images/myspace.jpg"
+                alt="MySpace"
+                width="60">
         </div>
         <center>
-            <h2>Guestbook</h2>
-            Name: <input type="text" name="name"><br>
-            Comment: <input type="text" name="comment"><br>
-            <button type="submit">Submit</button>
+            <h2>
+                Guestbook
+            </h2>
+            Name:
+            <input
+                type="text"
+                name="name">
+            <br>
+            Comment:
+            <input
+                type="text"
+                name="comment">
+            <br>
+
+            <button
+                type="submit">
+                Submit
+            </button>
         </center>
     </body>
 </html>

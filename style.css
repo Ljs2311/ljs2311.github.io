@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Neuropol';
+    src: url('Neuropol.otf') format('truetype');
+}
+
+.topBar {
+    width: 100%;
+    background: #fff;
+    height: 20px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.neuropol {
+    font-family: 'Neuropol', sans-serif;
+}
+
+body {
+    background: lightgrey;
+    color: black;
+}
+
+h1 {
+    font-family: 'Neuropol', sans-serif;
+    color: black;
+}
